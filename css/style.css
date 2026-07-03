@@ -429,6 +429,7 @@ h3 {
     align-items: flex-start;
     gap: 18px;
     flex-direction: column;
+    padding: 22px 6vw;
   }
 
   .site-nav a {
@@ -436,6 +437,32 @@ h3 {
     margin-right: 18px;
     display: inline-block;
     margin-bottom: 8px;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 64px 6vw;
+  }
+
+  .page-hero {
+    padding: 64px 6vw;
+  }
+
+  h1 {
+    font-size: clamp(2.4rem, 13vw, 4rem);
+  }
+
+  h2 {
+    font-size: clamp(2rem, 10vw, 3rem);
+  }
+
+  .hero-text {
+    font-size: 1.15rem;
+    line-height: 1.45;
+  }
+
+  .section {
+    padding: 58px 6vw;
   }
 
   .card-grid,
@@ -448,15 +475,57 @@ h3 {
     grid-template-columns: 1fr;
   }
 
-  .section {
-    padding: 64px 6vw;
+  .card,
+  .insight-card,
+  .contact-card,
+  .value-card {
+    padding: 28px;
   }
 
-  .page-hero {
-    padding: 64px 6vw;
+  .founder-section {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+
+  .founder-card {
+    padding: 28px;
+    gap: 28px;
+  }
+
+  .founder-image img {
+    max-width: 260px;
+    margin: 0 auto;
+  }
+
+  .founder-copy p {
+    font-size: 1rem;
+  }
+
+  .manifesto-card {
+    padding: 30px;
+    margin-bottom: -20px;
+  }
+
+  .manifesto-card p {
+    font-size: 1.35rem;
   }
 
   .cta {
+    margin: 32px 6vw 56px;
     padding: 44px 28px;
+  }
+
+  .cta h2 {
+    font-size: 2.1rem;
+  }
+
+  .cta p {
+    font-size: 1.05rem;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
   }
 }
