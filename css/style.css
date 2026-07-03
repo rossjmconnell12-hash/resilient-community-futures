@@ -145,6 +145,14 @@ h3 {
   max-width: none;
 }
 
+.muted > .eyebrow,
+.muted > h2,
+.muted > .steps {
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .card-grid,
 .steps,
 .insight-list {
