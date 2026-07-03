@@ -307,17 +307,6 @@ h3 {
   color: var(--stone);
 }
 
-.contact-intro {
-  max-width: 900px;
-  padding-top: 20px;
-  padding-bottom: 30px;
-}
-
-.contact-intro p:last-child {
-  margin-top: 28px;
-  font-style: italic;
-}
-
 .contact-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
