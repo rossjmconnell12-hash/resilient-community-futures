@@ -42,51 +42,38 @@ body {
   font-size: 0.95rem;
 }
 
-/* HOME HERO */
+/* HERO SECTIONS */
+
+.hero,
+.page-hero {
+  background: linear-gradient(
+    135deg,
+    #18352f 0%,
+    #23483f 45%,
+    #2f5d50 100%
+  );
+  color: var(--white);
+}
 
 .hero {
   min-height: 78vh;
   display: flex;
   align-items: center;
   padding: 8vw 6vw;
-  background: linear-gradient(
-    135deg,
-    #18352f 0%,
-    #23483f 45%,
-    #2f5d50 100%
-  );
-  color: var(--white);
 }
-
-.hero-content {
-  max-width: 960px;
-}
-
-.hero-content h1,
-.hero-content .hero-text {
-  max-width: 960px;
-}
-
-/* PAGE HERO - ABOUT / CONTACT */
 
 .page-hero {
   max-width: none;
-  background: linear-gradient(
-    135deg,
-    #18352f 0%,
-    #23483f 45%,
-    #2f5d50 100%
-  );
-  color: var(--white);
-  padding: 90px 6vw 60px;
+  margin: 0;
+  padding: 90px 6vw 70px;
 }
 
-.page-hero h1,
-.page-hero .hero-text {
-  max-width: 1240px;
+.hero-content,
+.page-hero > .eyebrow,
+.page-hero > h1,
+.page-hero > .hero-text {
+  max-width: 1100px;
 }
-
-/* SHARED HERO TEXT */
 
 .hero .eyebrow,
 .page-hero .eyebrow {
@@ -98,12 +85,12 @@ body {
   color: var(--white);
 }
 
-.hero .hero-text,
-.page-hero .hero-text {
-  color: var(--stone);
+.hero-text {
   font-size: 1.3rem;
   font-weight: 700;
   line-height: 1.5;
+  color: var(--stone);
+  margin-bottom: 32px;
 }
 
 /* TYPOGRAPHY */
@@ -137,10 +124,6 @@ h2 {
 h3 {
   font-size: 1.35rem;
   color: var(--green-dark);
-}
-
-.hero-text {
-  margin-bottom: 32px;
 }
 
 /* BUTTONS */
