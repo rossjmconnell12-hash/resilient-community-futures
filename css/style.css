@@ -194,6 +194,10 @@ h3 {
   margin-top: 12px;
 }
 
+.about-preview {
+  padding-bottom: 40px;
+}
+
 .insight-list {
   grid-template-columns: repeat(3, 1fr);
   margin: 36px 0 28px;
