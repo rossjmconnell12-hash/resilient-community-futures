@@ -283,8 +283,28 @@ h3 {
 }
 
 .page-hero {
-  max-width: 900px;
-  padding-bottom: 40px;
+  max-width: none;
+  background: linear-gradient(
+    135deg,
+    #18352f 0%,
+    #23483f 45%,
+    #2f5d50 100%
+  );
+  color: var(--white);
+  padding: 90px 6vw 60px;
+}
+
+.page-hero h1 {
+  color: var(--white);
+  max-width: 1050px;
+}
+
+.page-hero .hero-text {
+  color: var(--stone);
+}
+
+.page-hero .eyebrow {
+  color: var(--stone);
 }
 
 .contact-intro {
