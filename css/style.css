@@ -341,23 +341,29 @@ h3 {
 }
 
 .about-section {
-  max-width: 900px;
+  max-width: 1240px;
+}
+
+.about-copy {
+  max-width: 820px;
 }
 
 .about-section p {
   font-size: 1.15rem;
-  max-width: 820px;
 }
 
-.manifesto {
-  max-width: 1000px;
-  padding-top: 55px;
-  padding-bottom: 55px;
+.manifesto-card {
+  margin-top: 42px;
+  background: var(--stone);
+  padding: 42px;
+  border-radius: 18px;
+  max-width: 1240px;
 }
 
-.manifesto p {
-  font-size: clamp(1.6rem, 3vw, 2.6rem);
-  line-height: 1.25;
+.manifesto-card p {
+  max-width: 980px;
+  font-size: clamp(1.35rem, 2.2vw, 2rem);
+  line-height: 1.35;
   color: var(--green-dark);
   margin: 0;
 }
