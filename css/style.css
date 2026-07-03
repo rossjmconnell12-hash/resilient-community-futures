@@ -47,11 +47,14 @@ body {
   display: flex;
   align-items: center;
   padding: 8vw 6vw;
-  background:
-    linear-gradient(rgba(24, 53, 47, 0.72), rgba(24, 53, 47, 0.72)),
-    url("../images/hero.jpg");
-  background-size: cover;
-  background-position: center;
+
+  background: linear-gradient(
+    135deg,
+    #18352f 0%,
+    #23483f 45%,
+    #2f5d50 100%
+  );
+
   color: var(--white);
 }
 
