@@ -425,6 +425,10 @@ h3 {
 /* MOBILE */
 
 @media (max-width: 850px) {
+  body {
+    overflow-x: hidden;
+  }
+
   .site-header {
     align-items: flex-start;
     gap: 18px;
@@ -441,28 +445,29 @@ h3 {
 
   .hero {
     min-height: auto;
-    padding: 64px 6vw;
+    padding: 56px 6vw;
   }
 
   .page-hero {
-    padding: 64px 6vw;
+    padding: 56px 6vw;
   }
 
   h1 {
-    font-size: clamp(2.4rem, 13vw, 4rem);
+    font-size: clamp(2.6rem, 10vw, 3.4rem);
+    line-height: 1.08;
   }
 
   h2 {
-    font-size: clamp(2rem, 10vw, 3rem);
+    font-size: clamp(2rem, 8vw, 2.7rem);
   }
 
   .hero-text {
-    font-size: 1.15rem;
+    font-size: 1.08rem;
     line-height: 1.45;
   }
 
   .section {
-    padding: 58px 6vw;
+    padding: 54px 6vw;
   }
 
   .card-grid,
@@ -479,21 +484,31 @@ h3 {
   .insight-card,
   .contact-card,
   .value-card {
-    padding: 28px;
+    padding: 26px;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .contact-card,
+  .founder-card,
+  .value-card,
+  .manifesto-card,
+  .cta {
+    overflow-wrap: anywhere;
   }
 
   .founder-section {
-    padding-top: 48px;
-    padding-bottom: 48px;
+    padding-top: 44px;
+    padding-bottom: 44px;
   }
 
   .founder-card {
-    padding: 28px;
-    gap: 28px;
+    padding: 26px;
+    gap: 26px;
   }
 
   .founder-image img {
-    max-width: 260px;
+    max-width: 220px;
     margin: 0 auto;
   }
 
@@ -502,14 +517,34 @@ h3 {
   }
 
   .manifesto-card {
-    padding: 30px;
-    margin-bottom: -20px;
+    padding: 28px;
+    margin-bottom: -16px;
   }
 
   .manifesto-card p {
-    font-size: 1.35rem;
+    font-size: 1.25rem;
   }
 
+  .cta {
+    margin: 28px 6vw 52px;
+    padding: 40px 26px;
+  }
+
+  .cta h2 {
+    font-size: 2rem;
+  }
+
+  .cta p {
+    font-size: 1.05rem;
+  }
+
+  .site-footer {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 30px 6vw;
+  }
+}
   .cta {
     margin: 32px 6vw 56px;
     padding: 44px 28px;
