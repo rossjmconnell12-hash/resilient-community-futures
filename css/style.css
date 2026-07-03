@@ -282,6 +282,44 @@ h3 {
   text-decoration: underline;
 }
 
+.page-hero {
+  max-width: 900px;
+  padding-bottom: 40px;
+}
+
+.contact-intro {
+  max-width: 900px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.contact-intro p:last-child {
+  margin-top: 28px;
+  font-style: italic;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+  padding-top: 10px;
+}
+
+.contact-card {
+  background: var(--stone);
+  padding: 40px;
+  border-radius: 18px;
+}
+
+.contact-card h2 {
+  font-size: 1.8rem;
+  margin-bottom: 18px;
+}
+
+.contact-card p:last-child {
+  margin-bottom: 0;
+}
+
 @media (max-width: 850px) {
   .site-header {
     align-items: flex-start;
@@ -299,6 +337,7 @@ h3 {
   .card-grid,
   .steps,
   .insight-list,
+  .contact-grid,
   .split {
     grid-template-columns: 1fr;
   }
