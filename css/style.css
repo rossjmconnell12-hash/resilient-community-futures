@@ -53,13 +53,8 @@ body {
 
 .hero,
 .page-hero {
-  background: linear-gradient(
-    135deg,
-    #18352f 0%,
-    #23483f 45%,
-    #2f5d50 100%
-  );
-  color: var(--white);
+  background: var(--green-dark);
+  color: var(--cream);
 }
 
 .hero {
@@ -83,13 +78,12 @@ body {
 }
 
 .hero .eyebrow,
-.page-hero .eyebrow {
-  color: var(--stone);
-}
-
+.page-hero .eyebrow,
 .hero h1,
-.page-hero h1 {
-  color: var(--white);
+.page-hero h1,
+.hero .hero-text,
+.page-hero .hero-text {
+  color: var(--cream);
 }
 
 .hero-text {
@@ -139,6 +133,15 @@ h3 {
   display: flex;
   gap: 16px;
   flex-wrap: wrap;
+}
+
+.hero .button.primary {
+  color: var(--cream);
+}
+
+.hero .button.secondary {
+  border-color: var(--cream);
+  color: var(--cream);
 }
 
 .button {
