@@ -449,7 +449,7 @@ h3 {
   }
   
   .logo img {
-  width: min(300px, 88vw);
+    width: min(300px, 88vw);
   }
 
   .site-nav a {
