@@ -31,14 +31,15 @@ body {
 
 .logo {
   display: block;
+  flex-shrink: 0;
   text-decoration: none;
   line-height: 0;
-  flex-shrink: 0;
 }
 
-.logo img {
+.site-header .logo img {
   display: block;
-  width: clamp(210px, 24vw, 340px);
+  width: 180px;
+  max-width: 180px;
   height: auto;
 }
 
@@ -448,8 +449,9 @@ h3 {
     padding: 22px 6vw;
   }
   
-  .logo img {
-    width: min(300px, 88vw);
+  .site-header .logo img {
+    width: 160px;
+    max-width: 160px;
   }
 
   .site-nav a {
