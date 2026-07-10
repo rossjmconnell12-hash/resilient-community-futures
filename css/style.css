@@ -30,9 +30,16 @@ body {
 }
 
 .logo {
-  font-weight: 700;
+  display: block;
   text-decoration: none;
-  color: var(--green-dark);
+  line-height: 0;
+  flex-shrink: 0;
+}
+
+.logo img {
+  display: block;
+  width: clamp(210px, 24vw, 340px);
+  height: auto;
 }
 
 .site-nav a {
