@@ -135,15 +135,6 @@ h3 {
   flex-wrap: wrap;
 }
 
-.hero .button.primary {
-  color: var(--cream);
-}
-
-.hero .button.secondary {
-  border-color: var(--cream);
-  color: var(--cream);
-}
-
 .button {
   display: inline-block;
   padding: 13px 22px;
@@ -160,6 +151,17 @@ h3 {
 .button.secondary {
   border: 1px solid var(--white);
   color: var(--white);
+}
+
+/* Cream button details within heroes */
+
+.hero .button.primary {
+  color: var(--cream);
+}
+
+.hero .button.secondary {
+  border-color: var(--cream);
+  color: var(--cream);
 }
 
 /* SECTIONS */
@@ -445,6 +447,10 @@ h3 {
     flex-direction: column;
     padding: 22px 6vw;
   }
+  
+  .logo img {
+  width: min(300px, 88vw);
+  }
 
   .site-nav a {
     margin-left: 0;
@@ -553,24 +559,5 @@ h3 {
     text-align: center;
     align-items: center;
     padding: 30px 6vw;
-  }
-}
-  .cta {
-    margin: 32px 6vw 56px;
-    padding: 44px 28px;
-  }
-
-  .cta h2 {
-    font-size: 2.1rem;
-  }
-
-  .cta p {
-    font-size: 1.05rem;
-  }
-
-  .site-footer {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
   }
 }
